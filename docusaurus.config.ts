@@ -82,9 +82,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'تعًلم',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/blog', label: 'المدونة', position: 'left' },
         {
           type: 'localeDropdown',
           position: 'right',
@@ -100,28 +100,28 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'وثائق',
           items: [
             {
-              label: 'Tutorial',
+              label: 'تعلم',
               to: '/docs/About-OSGeo-Middle-East',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'مجتمعنا',
           items: [
             {
-              label: 'Discord',
+              label: 'ديسكورد',
               href: 'https://discord.gg/QTvXu4Yb8g',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'المزيد',
           items: [
             {
-              label: 'Blog',
+              label: 'المدونة',
               to: '/blog',
             },
             {
@@ -131,7 +131,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} OSGeo.me`,
+      copyright: `جميع الحقوق محفوظة © ${new Date().getFullYear()} OSGeo.me`,
     },
     prism: {
       theme: prismThemes.github,
