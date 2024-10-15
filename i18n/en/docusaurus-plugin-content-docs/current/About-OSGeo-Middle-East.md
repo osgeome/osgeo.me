@@ -2,4 +2,4 @@
 sidebar_position: 1
 ---
 
-OSGeo Middle East is a new community dedicated to open-source geospatial technologies in the Middle East. Our goal is to unite developers, GIS professionals, data scientists, students, and anyone interested in maps and location data to share ideas and create useful tools. At our events, you can participate in workshops, expert talks, projects, and hackathons while also networking and collaborating with others. Join OSGeo Middle East to connect, learn, and help build a strong geospatial community in the region!
+OSGeo الشرق الأوسط (Open Source Geospatial) هو مجتمع جديد مكرس لتقنيات الجغرافيا المكانية مفتوحة المصدر في منطقة الشرق الأوسط. هدفنا هو توحيد المطورين، ومتخصصي نظم المعلومات الجغرافية، وعلماء البيانات، والطلاب، وأي شخص مهتم بالخرائط والبيانات المكانية لتبادل الأفكار وإنشاء أدوات مفيدة. في فعالياتنا، يمكنك المشاركة في ورش العمل، والمحاضرات من الخبراء، والمشاريع، ومسابقات البرمجة، بالإضافة إلى بناء شبكة علاقات والتعاون مع الآخرين. انضم إلى OSGeo الشرق الأوسط لتتواصل، وتتعلم، وتساهم في بناء مجتمع جغرافي مكاني قوي في المنطقة!
