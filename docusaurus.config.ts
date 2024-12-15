@@ -30,7 +30,7 @@ const config: Config = {
     localeConfigs: {
       ar: {
         direction: 'rtl',
-        htmlLang: 'ar',
+        htmlLang: 'ar-EG',
         calendar: 'gregory',
         path: 'ar',
       },
@@ -78,11 +78,13 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
+      hideOnScroll: true,
       logo: {
         alt: 'OSGeo Middle East Logo',
         src: 'img/osgeo-me-logo-cmyk.svg',
         srcDark: 'img/osgeo-me-logo-cmyk.svg',
         height: 48,
+        className: 'navbar-logo',
       },
       items: [
         {
@@ -138,7 +140,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: 'Copyright {currentYear} OSGeo.me',
+      copyright: `جميع الحقوق محفوظة ٢٠٢٥ - OSGeo.me`,
     },
     prism: {
       theme: prismThemes.github,

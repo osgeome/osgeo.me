@@ -7,29 +7,13 @@
 @import "@fontsource/cairo/700.css";
 
 /* Set Cairo as default font for Arabic */
-html[lang="ar"] {
-  direction: rtl;
-}
-
-html[lang="ar"] body {
+html[lang^="ar"] {
   font-family: "Cairo", system-ui, -apple-system, sans-serif;
 }
 
-/* Override specific elements for Arabic */
-html[lang="ar"] .navbar__title,
-html[lang="ar"] .navbar__link,
-html[lang="ar"] .footer__title,
-html[lang="ar"] .footer__link-item,
-html[lang="ar"] .hero__title,
-html[lang="ar"] .hero__subtitle,
-html[lang="ar"] h1,
-html[lang="ar"] h2,
-html[lang="ar"] h3,
-html[lang="ar"] h4,
-html[lang="ar"] h5,
-html[lang="ar"] h6,
-html[lang="ar"] p {
-  font-family: "Cairo", system-ui, -apple-system, sans-serif;
+/* Ensure all text elements use Cairo in Arabic */
+html[lang^="ar"] *:not(code):not(pre) {
+  font-family: "Cairo", system-ui, -apple-system, sans-serif !important;
 }
 
 /* You can override the default Infima variables here. */
@@ -46,7 +30,7 @@ html[lang="ar"] p {
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme="dark"] {
+[data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
   --ifm-color-primary-darker: #1fa588;
@@ -57,9 +41,9 @@ html[lang="ar"] p {
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-.navbar--fixed-top {
-  position: sticky;
-  top: 0;
-  z-index: var(--ifm-z-index-fixed);
-  height: 70px;
+
+/* styles.css | http://localhost:3000/styles.css?1734266616730 */
+
+.navbar__title {
+  display: none;
 }

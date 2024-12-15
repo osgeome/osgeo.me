@@ -28,7 +28,7 @@
     "description": "The label of footer link with label=GitHub"
   },
   "copyright": {
-    "message": "جميع الحقوق محفوظة © {currentYear} OSGeo.me",
+    "message": "جميع الحقوق محفوظة ٢٠٢٥ - OSGeo.me",
     "description": "The footer copyright"
   }
 }

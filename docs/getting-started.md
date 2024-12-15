@@ -1,29 +1,29 @@
 ---
 id: getting-started
-title: Getting Started with OSGeo Middle East
-sidebar_label: Getting Started
+title: البدء مع OSGeo الشرق الأوسط
+sidebar_label: البدء
 slug: /
 ---
 
-# Welcome to OSGeo Middle East
+# مرحباً بكم في OSGeo الشرق الأوسط
 
-OSGeo Middle East is a vibrant community dedicated to promoting and developing open-source geospatial technologies in the Middle East region. Our mission is to bring together developers, GIS professionals, data scientists, students, and anyone interested in mapping and spatial data.
+OSGeo الشرق الأوسط هو مجتمع نشط مكرس لتعزيز وتطوير تقنيات الجغرافيا المكانية مفتوحة المصدر في منطقة الشرق الأوسط. مهمتنا هي جمع المطورين ومتخصصي نظم المعلومات الجغرافية وعلماء البيانات والطلاب وكل من يهتم بالخرائط والبيانات المكانية.
 
-## What We Do
+## ما نقوم به
 
-- **Knowledge Sharing**: Regular workshops, webinars, and technical sessions
-- **Community Building**: Networking events and collaborative projects
-- **Open Source Development**: Contributing to OSGeo projects and localizing content
-- **Education**: Training and resources in both Arabic and English
+- **مشاركة المعرفة**: ورش عمل وندوات عبر الإنترنت وجلسات تقنية منتظمة
+- **بناء المجتمع**: فعاليات للتواصل ومشاريع تعاونية
+- **تطوير المصادر المفتوحة**: المساهمة في مشاريع OSGeo وترجمة المحتوى
+- **التعليم**: التدريب والموارد باللغتين العربية والإنجليزية
 
-## Get Involved
+## كيف تشارك
 
-1. Join our Discord community
-2. Attend our events
-3. Contribute to projects
-4. Share your knowledge
+1. انضم إلى مجتمعنا على Discord
+2. احضر فعالياتنا
+3. ساهم في المشاريع
+4. شارك معرفتك
 
-## Contact Us
+## تواصل معنا
 
-- Discord: [Join our server](https://discord.gg/QTvXu4Yb8g)
+- Discord: [انضم إلى خادمنا](https://discord.gg/QTvXu4Yb8g)
 - GitHub: [@osgeome](https://github.com/osgeome)

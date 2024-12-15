@@ -1,7 +1,7 @@
 {
   "title": {
     "message": "OSGeo الشرق الأوسط",
-    "description": "The title in the navbar"
+    "description": "The title in the browser tab"
   },
   "logo.alt": {
     "message": "شعار OSGeo الشرق الأوسط",
