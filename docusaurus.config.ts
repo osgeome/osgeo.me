@@ -18,7 +18,7 @@ const config: Config = {
   organizationName: 'osgeome', // Usually your GitHub org/user name.
   projectName: 'osgeo.me', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -111,7 +111,7 @@ const config: Config = {
           items: [
             {
               label: 'Learn',
-              to: '/docs/About-OSGeo-Middle-East',
+              to: '/docs/',
             },
           ],
         },

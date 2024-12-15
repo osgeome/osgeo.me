@@ -1,0 +1,9 @@
+osgeo:
+  label: OSGeo
+  permalink: /osgeo
+  description: مؤسسة المصادر المفتوحة للمعلومات الجغرافية المكانية
+
+community:
+  label: المجتمع
+  permalink: /community
+  description: بناء وتنمية مجتمع OSGeo في الشرق الأوسط

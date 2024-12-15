@@ -19,9 +19,11 @@ hola:
   description: Hola tag description
 
 osgeo:
-  name: OSGeo
+  label: OSGeo
+  permalink: /osgeo
   description: Open Source Geospatial Foundation
 
 community:
-  name: Community
+  label: Community
+  permalink: /community
   description: Building and growing the OSGeo Middle East community
