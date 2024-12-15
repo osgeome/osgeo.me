@@ -1,0 +1,94 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "هذه الصفحة تعطلت.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "حاول مرة أخرى",
+    "description": "The label of the button to try again when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "الصفحة غير موجودة",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "لم نتمكن من العثور على ما كنت تبحث عنه.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "يرجى الاتصال بمالك الموقع الذي ربطك بعنوان URL الأصلي وإخباره بأن الرابط معطل.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "انتقل إلى أعلى الصفحة",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "أرشيف المدونة",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "التنقل في أحدث مقالات المدونة",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.blog.post.readMore": {
+    "message": "اقرأ المزيد",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "اقرأ المزيد عن {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "توسيع الشريط الجانبي",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "توسيع الشريط الجانبي",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "طي الشريط الجانبي",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "طي الشريط الجانبي",
+    "description": "The ARIA label for collapse button of doc sidebar"
+  },
+  "Get Started - 5min ⏱️": {
+    "message": "ابدأ الآن - ٥ دقائق ⏱️",
+    "description": "Homepage get started button"
+  },
+  "OSGeo Middle East (Open Source Geospatial) is a new community dedicated to open-source geospatial technologies in the Middle East region": {
+    "message": "OSGeo الشرق الأوسط هو مجتمع جديد مكرس لتقنيات الجغرافيا المكانية مفتوحة المصدر في منطقة الشرق الأوسط",
+    "description": "Homepage meta description"
+  },
+  "Open Source GIS": {
+    "message": "نظم المعلومات الجغرافية مفتوحة المصدر",
+    "description": "Feature title"
+  },
+  "Join us in promoting and developing open-source geospatial technologies in the Middle East. Share knowledge, collaborate on projects, and grow together.": {
+    "message": "انضم إلينا في تعزيز وتطوير تقنيات الجغرافيا المكانية مفتوحة المصدر في الشرق الأوسط. شارك المعرفة، تعاون في المشاريع، وانمو معًا.",
+    "description": "Feature description"
+  },
+  "Community & Events": {
+    "message": "المجتمع والفعاليات",
+    "description": "Feature title"
+  },
+  "Connect with GIS professionals, developers, and enthusiasts. Participate in workshops, webinars, and conferences focused on open-source geospatial solutions.": {
+    "message": "تواصل مع محترفي نظم المعلومات الجغرافية والمطورين والمهتمين. شارك في ورش العمل والندوات عبر الإنترنت والمؤتمرات التي تركز على حلول الجغرافيا المكانية مفتوحة المصدر.",
+    "description": "Feature description"
+  },
+  "Resources & Support": {
+    "message": "الموارد والدعم",
+    "description": "Feature title"
+  },
+  "Access Arabic and English resources, documentation, and tutorials. Get support from the community and contribute to localizing GIS content.": {
+    "message": "الوصول إلى الموارد والوثائق والدروس باللغتين العربية والإنجليزية. احصل على الدعم من المجتمع وساهم في ترجمة محتوى نظم المعلومات الجغرافية.",
+    "description": "Feature description"
+  },
+  "Join us in building a strong open-source geospatial community in the Middle East": {
+    "message": "انضم إلينا في بناء مجتمع قوي لنظم المعلومات الجغرافية مفتوحة المصدر في الشرق الأوسط",
+    "description": "The homepage tagline"
+  }
+}

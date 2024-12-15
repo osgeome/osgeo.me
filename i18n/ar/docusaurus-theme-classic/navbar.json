@@ -1,18 +1,18 @@
 {
   "title": {
-    "message": "OSGeo Middle East",
+    "message": "OSGeo الشرق الأوسط",
     "description": "The title in the navbar"
   },
   "logo.alt": {
-    "message": "OSGeo Middle East Logo",
+    "message": "شعار OSGeo الشرق الأوسط",
     "description": "The alt text of navbar logo"
   },
   "item.label.Learn": {
-    "message": "Learn",
+    "message": "تعًلم",
     "description": "Navbar item with label Learn"
   },
   "item.label.Blog": {
-    "message": "Blog",
+    "message": "المدونة",
     "description": "Navbar item with label Blog"
   },
   "item.label.GitHub": {

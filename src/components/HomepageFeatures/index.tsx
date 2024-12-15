@@ -1,42 +1,40 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
+import Translate from '@docusaurus/Translate';
 import styles from "./styles.module.css";
 
 type FeatureItem = {
-  title: string;
+  title: JSX.Element;
   Svg: React.ComponentType<React.ComponentProps<"svg">>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Easy to Use",
+    title: <Translate>Open Source GIS</Translate>,
     Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+      <Translate>
+        Join us in promoting and developing open-source geospatial technologies in the Middle East. Share knowledge, collaborate on projects, and grow together.
+      </Translate>
     ),
   },
   {
-    title: "Focus on What Matters",
+    title: <Translate>Community & Events</Translate>,
     Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <Translate>
+        Connect with GIS professionals, developers, and enthusiasts. Participate in workshops, webinars, and conferences focused on open-source geospatial solutions.
+      </Translate>
     ),
   },
   {
-    title: "Powered by React",
+    title: <Translate>Resources & Support</Translate>,
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
+      <Translate>
+        Access Arabic and English resources, documentation, and tutorials. Get support from the community and contribute to localizing GIS content.
+      </Translate>
     ),
   },
 ];

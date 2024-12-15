@@ -1,26 +1,26 @@
 {
   "link.title.Docs": {
-    "message": "Docs",
+    "message": "وثائق",
     "description": "The title of the footer docs section"
   },
   "link.title.Community": {
-    "message": "Community",
+    "message": "مجتمعنا",
     "description": "The title of the footer community section"
   },
   "link.title.More": {
-    "message": "More",
+    "message": "المزيد",
     "description": "The title of the footer more section"
   },
   "link.item.label.Learn": {
-    "message": "Learn",
+    "message": "تعلم",
     "description": "The label of footer link with label=Learn"
   },
   "link.item.label.Discord": {
-    "message": "Discord",
+    "message": "ديسكورد",
     "description": "The label of footer link with label=Discord"
   },
   "link.item.label.Blog": {
-    "message": "Blog",
+    "message": "المدونة",
     "description": "The label of footer link with label=Blog"
   },
   "link.item.label.GitHub": {
@@ -28,7 +28,7 @@
     "description": "The label of footer link with label=GitHub"
   },
   "copyright": {
-    "message": "Copyright {currentYear} OSGeo.me",
+    "message": "جميع الحقوق محفوظة © {currentYear} OSGeo.me",
     "description": "The footer copyright"
   }
 }

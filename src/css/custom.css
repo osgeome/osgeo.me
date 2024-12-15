@@ -3,12 +3,35 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-@import "@fontsource/cairo";
+@import "@fontsource/cairo/400.css";
+@import "@fontsource/cairo/700.css";
 
+/* Set Cairo as default font for Arabic */
 html[lang="ar"] {
-  /* direction: rtl; */
-  font-family: "Cairo", sans-serif;
+  direction: rtl;
 }
+
+html[lang="ar"] body {
+  font-family: "Cairo", system-ui, -apple-system, sans-serif;
+}
+
+/* Override specific elements for Arabic */
+html[lang="ar"] .navbar__title,
+html[lang="ar"] .navbar__link,
+html[lang="ar"] .footer__title,
+html[lang="ar"] .footer__link-item,
+html[lang="ar"] .hero__title,
+html[lang="ar"] .hero__subtitle,
+html[lang="ar"] h1,
+html[lang="ar"] h2,
+html[lang="ar"] h3,
+html[lang="ar"] h4,
+html[lang="ar"] h5,
+html[lang="ar"] h6,
+html[lang="ar"] p {
+  font-family: "Cairo", system-ui, -apple-system, sans-serif;
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;

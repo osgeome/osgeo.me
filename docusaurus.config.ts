@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'OSGeo Middle East',
-  tagline: 'OSGeo الشرق الأوسط (Open Source Geospatial) هو مجتمع جديد مكرس لتقنيات الجغرافيا المكانية مفتوحة المصدر في منطقة الشرق الأوسط. هدفنا هو توحيد المطورين، ومتخصصي نظم المعلومات الجغرافية، وعلماء البيانات، والطلاب، وأي شخص مهتم بالخرائط والبيانات المكانية لتبادل الأفكار وإنشاء أدوات مفيدة. في فعالياتنا، يمكنك المشاركة في ورش العمل، والمحاضرات من الخبراء، والمشاريع، ومسابقات البرمجة، بالإضافة إلى بناء شبكة علاقات والتعاون مع الآخرين. انضم إلى OSGeo الشرق الأوسط لتتواصل، وتتعلم، وتساهم في بناء مجتمع جغرافي مكاني قوي في المنطقة!',
+  tagline: 'Join us in building a strong open-source geospatial community in the Middle East',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -27,6 +27,18 @@ const config: Config = {
   i18n: {
     defaultLocale: 'ar',
     locales: ['ar', 'en'],
+    localeConfigs: {
+      ar: {
+        direction: 'rtl',
+        htmlLang: 'ar',
+        calendar: 'gregory',
+        path: 'ar',
+      },
+      en: {
+        htmlLang: 'en-US',
+        path: 'en',
+      },
+    },
   },
 
   presets: [
@@ -66,25 +78,20 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: '',
       logo: {
         alt: 'OSGeo Middle East Logo',
         src: 'img/osgeo-me-logo-cmyk.svg',
-        height: 100,
-        // width: 100,
-        style: {
-          height: '48px',
-        },
-
+        srcDark: 'img/osgeo-me-logo-cmyk.svg',
+        height: 48,
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'تعًلم',
+          label: 'Learn',
         },
-        { to: '/blog', label: 'المدونة', position: 'left' },
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
           type: 'localeDropdown',
           position: 'right',
@@ -100,28 +107,28 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'وثائق',
+          title: 'Docs',
           items: [
             {
-              label: 'تعلم',
+              label: 'Learn',
               to: '/docs/About-OSGeo-Middle-East',
             },
           ],
         },
         {
-          title: 'مجتمعنا',
+          title: 'Community',
           items: [
             {
-              label: 'ديسكورد',
+              label: 'Discord',
               href: 'https://discord.gg/QTvXu4Yb8g',
             },
           ],
         },
         {
-          title: 'المزيد',
+          title: 'More',
           items: [
             {
-              label: 'المدونة',
+              label: 'Blog',
               to: '/blog',
             },
             {
@@ -131,7 +138,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `جميع الحقوق محفوظة © ${new Date().getFullYear()} OSGeo.me`,
+      copyright: 'Copyright {currentYear} OSGeo.me',
     },
     prism: {
       theme: prismThemes.github,

@@ -305,5 +305,41 @@
   "theme.tags.tagsPageTitle": {
     "message": "Tags",
     "description": "The title of the tag list page"
+  },
+  "Get Started - 5min ⏱️": {
+    "message": "Get Started - 5min ⏱️",
+    "description": "Homepage get started button"
+  },
+  "OSGeo Middle East (Open Source Geospatial) is a new community dedicated to open-source geospatial technologies in the Middle East region": {
+    "message": "OSGeo Middle East (Open Source Geospatial) is a new community dedicated to open-source geospatial technologies in the Middle East region",
+    "description": "Homepage meta description"
+  },
+  "Open Source GIS": {
+    "message": "Open Source GIS",
+    "description": "Feature title"
+  },
+  "Join us in promoting and developing open-source geospatial technologies in the Middle East. Share knowledge, collaborate on projects, and grow together.": {
+    "message": "Join us in promoting and developing open-source geospatial technologies in the Middle East. Share knowledge, collaborate on projects, and grow together.",
+    "description": "Feature description"
+  },
+  "Community & Events": {
+    "message": "Community & Events",
+    "description": "Feature title"
+  },
+  "Connect with GIS professionals, developers, and enthusiasts. Participate in workshops, webinars, and conferences focused on open-source geospatial solutions.": {
+    "message": "Connect with GIS professionals, developers, and enthusiasts. Participate in workshops, webinars, and conferences focused on open-source geospatial solutions.",
+    "description": "Feature description"
+  },
+  "Resources & Support": {
+    "message": "Resources & Support",
+    "description": "Feature title"
+  },
+  "Access Arabic and English resources, documentation, and tutorials. Get support from the community and contribute to localizing GIS content.": {
+    "message": "Access Arabic and English resources, documentation, and tutorials. Get support from the community and contribute to localizing GIS content.",
+    "description": "Feature description"
+  },
+  "Join us in building a strong open-source geospatial community in the Middle East": {
+    "message": "Join us in building a strong open-source geospatial community in the Middle East",
+    "description": "The homepage tagline"
   }
 }
